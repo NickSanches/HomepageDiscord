@@ -1,0 +1,181 @@
+/*Sec_1-PRIMEIRA PARTE DO MAIN*/
+#sec_1 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 625px;
+  padding: 0 120px;
+  background-image: url("/midias/imagem/section1.png");
+  background-color: #404eed ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto auto;
+  font-family: "Karla";
+  color: #fff;
+}
+#destaque {
+  font-weight: 800;
+  font-size: clamp(24px, 5vw, 44px);
+  font-size: 60px;
+  line-height: 95%;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+}
+#sec_1 article {
+  max-width: 800px;
+  text-align: center;
+  font-size: 20px;
+}
+#sec_1 p {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+main section:nth-child(2) {
+  height: 500px;
+}
+#sec_1 ul {
+  min-width: 770px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#sec_1 button {
+  margin: 24px 0 0;
+  padding: 16px 32px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+#sec_1 li:nth-child(1) i {
+  height: 27px;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+#sec_1 li:nth-child(1) button:hover {
+  color: #404eed;
+  box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#sec_1 li:nth-child(2) button {
+  margin: 24px 0 0;
+  padding: 18px 32px;
+  color: #fff;
+  background-color: #23272a;
+}
+#sec_1 li:nth-child(2) button:hover {
+  box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #36393f;
+}
+
+/* DEFINICOES PADROES PARA SEC_2 - SEC_4*/
+#sec_2,
+#sec_3,
+#sec_4 {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 625px;
+  font-family: "karla";
+}
+
+.imgsize {
+  height: 390px;
+  margin: 150px;
+}
+
+.mgrt {
+  margin-right: 180px;
+}
+
+.art {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 400px;
+  color: #23272a;
+}
+.art span {
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.art p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* sec_3 - TERCEIRA PARTE DO MAIN*/
+
+.bgc {
+  padding-left: 270px;
+  background-color: #f6f6f6;
+}
+
+/* sec_5 - QUINTA PARTE DO MAIN */
+#sec_5 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  min-height: 650px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Karla";
+}
+#sec_5 article {
+  margin-bottom: 70px;
+  width: 990px;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  color: #23272a;
+}
+#sec_5 span {
+  font-size: 49px;
+  font-weight: 800;
+  line-height: 47px;
+}
+#sec_5 article p {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 28px;
+}
+#sec_5 img {
+  height: 600px;
+  margin-bottom: 90px;
+}
+
+#sec_5 p:nth-child(3) {
+  padding: 40px 75px;
+  display: flex;
+  flex-flow: row nowrap;
+  background: url("/midias/imagem/bg_sec_5.png") no-repeat local center top;
+  font-size: 30px;
+  font-weight: bold;
+}
+#sec_5 button {
+  padding: 16px 32px;
+  font-size: 20px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #404eed;
+}
+#sec_5 button:hover {
+  background-color: #8ea2e1;
+  box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  cursor: pointer;
+}

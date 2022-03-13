@@ -1,2 +1,3 @@
 # HomepageDiscord
-Projeto simples onde recriei de forma simples a Homepage do discord, utilizando apenas HTML e CSS.
+
+Simple project where I recreated the discord Homepage in a simple way, using only HTML and CSS.

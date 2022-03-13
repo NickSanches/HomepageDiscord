@@ -1,0 +1,9 @@
+/*FONTES*/
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;800&display=swap");
+
+@import url("normalizer.css");
+
+/*DISCORD*/
+@import url("discord/discord_header.css");
+@import url("discord/discord_main.css");
+@import url("discord/discord_footer.css");
